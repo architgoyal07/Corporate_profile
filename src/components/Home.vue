@@ -10,7 +10,8 @@
       <br>
       <h4>FrontEnd Developer</h4>
     </div>
-<br>
+     <br>
+
     <div class="links">
         
          <a href="https://www.linkedin.com/in/archit-goyal-8a6957133/"><span class="mdi mdi-linkedin"></span></a>
@@ -27,7 +28,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  
 
 };
 </script>
@@ -43,6 +44,7 @@ export default {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: auto;
   }
 
   h1{
@@ -61,7 +63,9 @@ export default {
   a{
     color: lightslategray;
   }
+    
   a:hover{
     color: white;
   }
+
 </style>
