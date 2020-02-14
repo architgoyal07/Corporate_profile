@@ -1,8 +1,12 @@
 <template>
-  <div class="home" >
+  
+  <div class="outer">
+  
+    <div class="home" >
     
+  
     <div class="image">
-      <img src="../assets/archit2.jpg" width="30%" height="auto" >
+      <img src="../assets/archit2.jpg" style="width:80%;max-width:400px;">
     </div>
 
     <div class="title">
@@ -23,6 +27,7 @@
           
     </div>
 
+   </div>
   </div>
 </template>
 
@@ -36,28 +41,36 @@ export default {
 
 <style scoped lang="scss">
 
- 
+  .outer{
+    display: table;
+    width: 100%;
+    height: 100vh;
+  }
 
   .home{
-    display: flex;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     overflow: auto;
   }
 
+  div a{
+    padding: 5px;
+  }
+
+
   h1{
-    font-size: 5vw;
-    font-family: sans-serif;
+    font-size: 57px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   h4{
     color: lightgray;
-    font-size: 2vw;
+    font-size: 35px;
   }
   .links{
-    font-size: 2vw;
+    font-size: 30px;
   }
 
   a{
@@ -68,4 +81,5 @@ export default {
     color: white;
   }
 
+  
 </style>

@@ -23,21 +23,25 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 
 *{
   box-sizing: border-box;
   margin:0px;
   padding: 0px;
 }
+
+
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  background-color: black;
+  background-color: #080808;
 }
+
+
 
 /* #nav {
    padding: 30px;
