@@ -67,7 +67,7 @@ export default {
 
   h4{
     color: lightgray;
-    font-size: 35px;
+    font-size: 30px;
   }
   .links{
     font-size: 30px;
