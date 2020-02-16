@@ -6,15 +6,13 @@
     
   
     <div class="image">
-      <img src="../assets/archit2.jpg" style="width:80%;max-width:400px;">
+      <img src="../assets/archit2.jpg" style="width:80%;max-width:400px;border-radius:30px">
     </div>
 
     <div class="title">
       <h1>Archit Goyal</h1>
-      <br>
       <h4>FrontEnd Developer</h4>
     </div>
-     <br>
 
     <div class="links">
         
@@ -59,18 +57,35 @@ export default {
     padding: 5px;
   }
 
-
+  
   h1{
-    font-size: 55px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 8px; 
+    font-size: 65px;
+    color: white;
+    animation-name: colour;
+    animation-duration: 20s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
   }
+
+  @keyframes colour {
+  0%   {color: lightcyan;}
+  25%  {color: yellow;}
+  50%  {color: palevioletred;}
+  100% {color: aqua;}
+}
 
   h4{
     color: lightgray;
     font-size: 30px;
   }
+
+  h4:hover{
+    color: white;
+  }
   .links{
     font-size: 30px;
+    margin-top: 9px;
   }
 
   a{
