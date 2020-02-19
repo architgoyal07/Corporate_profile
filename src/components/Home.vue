@@ -103,6 +103,9 @@ export default {
     h4{
       font-size: 25px;
     }
+    .links{
+      font-size:25px;
+    }
   }
   
 </style>
