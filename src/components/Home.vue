@@ -96,9 +96,12 @@ export default {
     color: white;
   }
 
-  @media screen and (min-width: 250px) and (max-width:450px){
+  @media screen and (max-width:415px){
     h1{
       font-size: 45px;
+    }
+    h4{
+      font-size: 20px;
     }
   }
   
