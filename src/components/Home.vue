@@ -101,7 +101,7 @@ export default {
       font-size: 45px;
     }
     h4{
-      font-size: 20px;
+      font-size: 25px;
     }
   }
   
