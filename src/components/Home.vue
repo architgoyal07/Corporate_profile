@@ -64,7 +64,7 @@ export default {
     color: white;
     animation-name: colour;
     animation-duration: 20s;
-    animation-delay: 4s;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
   }
 
